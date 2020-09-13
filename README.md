@@ -1,9 +1,9 @@
 ## ORGANIZANDO CSS COM SASS E BEM
-
+<br><br>
 ## BEM - O que é?
 
 Significa Block Element Modifier, que são as espeficações que seguiremos nesse style guide.
-
+<br><br>
 <div align="center">
 
 BEM utilizado na prática
@@ -16,9 +16,9 @@ BEM utilizado na prática
 **.card__image** - filhos tem como prefixo a classe pai seguido de **__** como separação.
 
 **card__button--sucess** - o modificador.
-
+<br><br><br><br>
 <div align="center">
- EXPLICAÇÕES
+ EXPLICAÇÕES DAS CLASSES
 </div>
 
 ## Block
@@ -28,7 +28,7 @@ Elemento pai e que terá sua classe como prefixo nas classes filhos, por exemplo
 ````html
 <div class="block"></div>
 ````
-
+<br><br>
 ## ELEMENT
 
 Todos os elementos filhos inseridos dentro do contexto do block, por exemplo:
@@ -39,7 +39,7 @@ Todos os elementos filhos inseridos dentro do contexto do block, por exemplo:
   <p class="block__text">Lorem Ipsum</p>
 </div>
 ````
-
+<br><br>
 ## MODIFIER
 
 Modificadores são utilizados para modificar algum estilo de uma classe, no exemplo abaixo temos duas tags <p> que complartilham o mesmo estilos como tamanho da fonte, peso da fonte, etc, exceto a cor. Que  está sendo alterada pelo modificador:
@@ -51,7 +51,7 @@ Modificadores são utilizados para modificar algum estilo de uma classe, no exem
   <p class="block__text--red">Lorem Ipsum</p>
 </div>
 ````
-
+<br><br>
 ## USANDO ESSE ESTRUTURA NO SASS
 
 utilizando apenas o BEM, aninhamento e símbolos de referência conseguimos escrever um CSS bonito, organizado e legível para que você ou outros desenvolvedores possam fazer manutenção sem problema algum.
