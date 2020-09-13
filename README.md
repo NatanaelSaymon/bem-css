@@ -1,6 +1,6 @@
-# ORGANIZANDO CSS COM SASS E BEM
+## ORGANIZANDO CSS COM SASS E BEM
 
-# BEM - O que é?
+## BEM - O que é?
 
 Significa Block Element Modifier, que são as espeficações que seguiremos nesse style guide.
 
