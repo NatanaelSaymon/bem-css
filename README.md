@@ -1,9 +1,61 @@
 ## ORGANIZANDO CSS COM SASS E BEM
+
 <br><br>
+
 ## BEM - O que é?
 
-Significa Block Element Modifier, que são as espeficações que seguiremos nesse style guide.
+**Block Element Modifier**, que são as espeficações que seguiremos nesse style guide.
 <br><br>
+
+**Bloco**: Entidade autonoma que eh significativa por si so. Consegue existir sozinha.
+
+Ex: header, footer, checkbox.
+
+**Elemento**: Faz parte de um Bloco (elemento-filho).
+
+Ex: item de menu, item de lista, label do checkbox.
+
+**Modificador**: Eh uma variante de um Bloco ou Elemento.
+
+Ex: disabled, checked, full-width, dark.
+<br><br>
+
+BLOCO
+````css
+.menu {}
+````
+
+ELEMENTO
+````css
+.menu__item {}
+````
+
+MODIFICADOR
+````css
+.menu--dark {}
+````
+
+<br><br>
+
+**Abordagem BEM**
+
+Garante que todos que participam do projeto trabalhe com uma unica base de codigo e falem o mesmo idioma.
+
+<br>
+
+  - **Facil**: Eh uma convesao de nomes.
+  - **Modular**: Codigo independente e reusavel.
+  - **Flexivel**: Use da maneira que preferir.
+
+<br>
+
+**Por que BEM?** 
+
+  - Eh muito simples de aprender e rapido de implementar.
+  - Prove uma ba arquitetura para usa
+  - Com uma terminologia amplamente usada e reconhecida.
+<br><br><br>
+
 <div align="center">
 
 BEM utilizado na prática
@@ -16,7 +68,9 @@ BEM utilizado na prática
 **.card__image** - filhos tem como prefixo a classe pai seguido de **__** como separação.
 
 **card__button--sucess** - o modificador.
-<br><br><br><br>
+
+<br><br><br>
+
 <div align="center">
  EXPLICAÇÕES DAS CLASSES
 </div>
