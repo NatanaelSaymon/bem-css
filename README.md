@@ -65,7 +65,7 @@ BEM utilizado na prática
 
 **.card** - Elemento pai e que terá sua classe como prefixo nas classes filho.
 
-**.card__image** - filhos tem como prefixo a classe pai seguido de **__** como separação.
+**.card__image** - filhos tem como prefixo a classe pai seguido de *underline*, *underline* **__** como separação.
 
 **card__button--sucess** - o modificador.
 
